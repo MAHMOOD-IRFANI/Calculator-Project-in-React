@@ -16,21 +16,20 @@ import Calculator from "./Components/Calculator/Calculator";
 
 function App() {
   return (
-    <div className='bg-[#101216] h-[100vh]'>
-   
-
+    <div className="bg-[#101216] h-[100vh]">
+      <h1 className="text-white text-2xl font-bold mb-4">
+        Calculator for Calculation
+      </h1>
+      <br />
+      <p className="text-white">MAHMOOD IRFANI (SB)</p>
       <Calculator />
-{/* 
+      {/* 
 
       <Navbar >
         
       </Navbar> */}
 
-
       {/* <Rendering /> */}
-
-    
-      
 
       {/* <Home /> */}
       {/* <Navbar />
