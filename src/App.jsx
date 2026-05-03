@@ -17,13 +17,7 @@ import Calculator from "./Components/Calculator/Calculator";
 function App() {
   return (
     <div className="bg-[#101216] h-[100vh] flex items-center justify-center flex-col">
-      <div>
-        <h1 className="text-white text-2xl font-bold mb-4">
-          Calculator for Calculation
-        </h1>
-
-        <p className="text-white">MAHMOOD IRFANI (SB)</p>
-      </div>
+     
       <Calculator />
       {/* 
 
