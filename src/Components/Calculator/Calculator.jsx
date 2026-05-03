@@ -66,7 +66,7 @@ export default function Calculator() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-[#2c2f3a] w-full">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-[#101115] w-full">
       <div className="w-full text-center mb-8 content-center">
         <h1 className="text-white text-2xl font-bold mb-4">
           Calculator for Calculation
