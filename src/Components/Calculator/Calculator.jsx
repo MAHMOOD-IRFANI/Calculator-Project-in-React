@@ -30,7 +30,6 @@ export default function Calculator() {
       setHasPoint(false);
     }
 
-
     if (input === "." && result === "") {
       setResult("0.");
       setHasPoint(true);
@@ -68,9 +67,12 @@ export default function Calculator() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-black">
-      <h1 className="text-white text-2xl font-bold mb-4">Calculator for Calculation</h1>
-      <p className="text-white">MAHMOOD IRFANI (SB)</p>
       <div className="bg-[#2c2f3a] w-[280px] rounded-xl shadow-lg overflow-hidden ">
+        <h1 className="text-white text-2xl font-bold mb-4">
+          Calculator for Calculation
+        </h1>
+        <br />
+        <p className="text-white">MAHMOOD IRFANI (SB)</p>
         {/* Display */}
         <div className=" [direction:rtl] text-right [unicode-bidi:plaintext] bg-[#2c2f3a]  h-[80px] flex items-center text-white text-2xl mx-4 overflow-x-hidden">
           {result}
