@@ -68,6 +68,8 @@ export default function Calculator() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-black">
+      <h1>Calculator for Calculation</h1>
+      <p>MAHMOOD IRFANI (SB)</p>
       <div className="bg-[#2c2f3a] w-[280px] rounded-xl shadow-lg overflow-hidden ">
         {/* Display */}
         <div className=" [direction:rtl] text-right [unicode-bidi:plaintext] bg-[#2c2f3a]  h-[80px] flex items-center text-white text-2xl mx-4 overflow-x-hidden">
